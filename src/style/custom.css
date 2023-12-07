@@ -1,0 +1,44 @@
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Custom styles */
+:root {
+  --color-primary: #269ece;
+  --color-secondary: #f5a9b8;
+  --color-accent: #fff430;
+  --color-text: #ffffff;
+  --color-subtext: #ffffff;
+  --color-navbar: #000000;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.bg-base {
+  background-color: var(--color-primary);
+}
+
+.bg-surface0 {
+  background-color: var(--color-secondary);
+}
+
+.text-text {
+  font-weight: bold;
+  color: var(--color-text);
+}
+
+.text-subtext0 {
+  color: var(--color-subtext);
+}
+
+.text-subtext1 {
+  color: var(--color-accent);
+}
+
+#navbar {
+  color: #000000;
+}
